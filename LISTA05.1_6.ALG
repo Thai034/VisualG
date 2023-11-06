@@ -5,22 +5,18 @@ Algoritmo "Lista05.1_6"
 Var
 // Seção de Declarações das variáveis
 n: inteiro
-fabricio: inteiro
-depaula: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
-escreval("Escreva o Multiplicação de n x 3")
-escreval
+escreval("Informe um número menor ou igual a 50: ")
 leia(n)
-fabricio <- 3
-depaula <- n * fabricio
-se (n <= 50) faca
-   enquanto depaula <= 250 faca
-         escreval(depaula)
-         n <- n * 3
-
+se (n <= 50) entao
+   enquanto (n < 250) faca
+   escreval(n)
+   n <- n * 3
+   
 fimenquanto
+fimse
 
 
 Fimalgoritmo

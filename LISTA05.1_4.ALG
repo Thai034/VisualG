@@ -14,9 +14,7 @@ soma <- 0
 enquanto contador <= 100 faca
          soma <- soma + contador
          contador <- contador + 1
-         escreval(soma)
-         
 fimenquanto
-
+escreval(soma)
 
 Fimalgoritmo
